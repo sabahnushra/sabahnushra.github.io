@@ -1,0 +1,837 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E00L9PT3V9');
+    </script>
+    <title>Sabah Nushra</title>
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+    <meta name="author" content="Sabah Nushra" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="canonical" href="https://github.com/sabahnushra/sabahnushra.github.io">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+    <style>
+        /* Style for the navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            /* font-family: Arial, sans-serif; */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            left: 0;
+            right: 0;
+            display: flex;
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .navbar button {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            background-color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            margin: none;
+
+        }
+
+        .navbar button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        body {
+            padding-top: 50px;
+            scroll-behavior: smooth;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".navbar button");
+            buttons.forEach(button => {
+                button.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("data-target");
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 50, // Adjust for fixed navbar height
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <button data-target="about">About</a>
+                <button data-target="research">Research Experience</a>
+                    <button data-target="projects">Projects</a>
+                        <button data-target="education">Education</a>
+                            <button data-target="work">Work Experience</a>
+                                <button data-target="leadership">Honors and Awards</a>
+                                    <!-- <button data-target="leadership">Leadership</a> -->
+        </div>
+    </div>
+    <br>
+    <table id="about"
+        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tr style="padding:0px">
+            <td style="padding:0px">
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr style="padding:0px">
+                        <h1>
+                            Sabah Nushra
+                        </h1>
+                        <p style="text-align: center;">Researcher | Competetive Programmer | AI Enthusiast</p>
+                    </tr>
+                    <tr style="padding:0px">
+                        <td style="padding:2.5%;width:60%;vertical-align:middle">
+                            <p>
+                                I am <b>Sabah Nushra</b>, a passionate researcher and educator with a deep interest in
+                               Computer Vision, Deep Learning, and Natural Language Processing. I
+                                completed my BSc. in <a target="_blank" style="text-decoration: none"
+                                    href="https://cse.iutoic-dhaka.edu/">Computer Science
+                                    and Engineering (CSE)</a> from <a target="_blank" style="text-decoration: none"
+                                    href="https://www.iutoic-dhaka.edu/">Islamic
+                                    University of Technology (IUT)</a>.
+                            </p>
+
+                            <p>
+                                Alongside my research, I’ve gained industry experience as a Cybersecurity Engineer at 
+                                <a target="_blank" style="text-decoration: none"
+                                    href="https://beetles.io/">Beetles Cyber Security Ltd.</a>,
+                                 where I worked on evaluating code-injection techniques and designing security mitigation strategies for Windows applications.
+                            </p>
+                            <p>
+                                I’m also deeply involved in community building and mentoring. As an Advisor of the 
+                                <a target="_blank" style="text-decoration: none"
+                                    href="https://www.facebook.com/groups/IUTPC">IUT Programming Community</a>, 
+                                I taught students programming fundamentals and data structures, organized national-level 
+                                programming contests, and hosted technical workshops and seminars. 
+                                As Chief Public Relations Officer of the <a target="_blank" style="text-decoration: none"
+                                    href="https://www.facebook.com/ieeeiutsb">IEEE IUT Student Branch</a>, 
+                                I organized numerous events on machine learning, deep learning, blockchain, 
+                                and research methodology, fostering collaboration among student branches and alumni across the country.
+                            </p>
+
+                            <p>
+                                Beyond research and leadership, I am a competitive programmer and datathon enthusiast. 
+                                I have participated in numerous national and international programming contests and AI datathons, 
+                                earning top positions such as 1st Runner-Up at Huawei Women in Tech BD 2024, Champion of “The Great Web Off” 2024, 
+                                and strong rankings in the National Girls’ Programming Contest, ICPC Algo Queen, and several Bengali.AI and 
+                                BUET CSE Datathons.
+                            </p>
+
+                            <!-- <p>
+                                I love exploring new technologies, teaching, and solving algorithmic 
+                                challenges. 
+                                I also enjoy listening to music, traveling, 
+                                and connecting with people who share a passion for innovation and learning.
+                            </p> -->
+
+                            <p style="text-align:center">
+                                Work email:
+                                <b>sabahnushra [at] iut-dhaka [dot] edu</b>
+                            </p>
+                        </td>
+                        <td style="padding:2.5%;width:40%;max-width:40%">
+                            <img style="width:100%;max-width:100%" alt="profile photo" src="images/SabahPic.JPG">
+                            <br>
+                            <p style="text-align:center">This photo was taken at<b><em>my convocation</em></b>
+                                on June 28, 2024
+                            </p>
+
+                            <p style="text-align: center;">
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/19wzRJE6Fgb9YIriGQH2oSB3VUqMjITvj/view?usp=sharing">CV</a>&nbsp;/&nbsp;
+                                <a target="_blank" href="https://github.com/Meowthhh">GitHub</a> &nbsp;/&nbsp;
+                                <a target="_blank"
+                                    href="https://scholar.google.com/citations?user=lZ24CQoAAAAJ&hl=en&oi=ao">Scholar</a>
+                                &nbsp;/&nbsp;
+                                <a target="_blank"
+                                    href="https://www.linkedin.com/in/sabah-nushra/">
+                                    LinkedIn
+                                </a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- News and Updates Section -->
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr>
+        <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <h1>News and Updates</h1>
+            <div style="max-height:300px; overflow-y:auto; padding:10px;">
+                <!-- Achievements Section -->
+                <div style="margin-bottom: 10px;">
+                    <p><strong>July, 2024:</strong><br> I achieved <strong>1st Runner Up</strong> position at <em>Women in Tech BD</em>, organized by Huawei.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>March, 2024:</strong><br> I became the <strong>Champion</strong> of <em>IUTCS presents “The Great Web Off”</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>February, 2024:</strong><br> I ranked <strong>29th</strong> in the <em>HerWILL: AI for Equality Datathon</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>December, 2023:</strong><br> I secured <strong>4th place</strong> in the <em>Blockchain Olympiad Bangladesh</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>August, 2023:</strong><br> I achieved <strong>32nd place</strong> in <em>DL Sprint 2.0</em> held during <em>BUET CSE Fest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>July, 2023:</strong><br> I ranked <strong>30th</strong> in the <em>ASR for Regional Dialects Datathon</em> organized by <em>Bengali.AI</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>May, 2023:</strong><br> I achieved a <strong>Top 60 Global Rank</strong> in the <em>ICPC Algo Queen</em> competition.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>April, 2023:</strong><br> I secured <strong>9th place</strong> in <em>CodeRush 1.0 Intra-IUT Programming Contest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>February, 2023:</strong><br> I achieved <strong>26th place</strong> in the <em>National Girls’ Programming Contest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>December, 2022:</strong><br> I ranked <strong>6th</strong> in the <em>IUT Intra-University Programming Contest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>August, 2022:</strong><br> I achieved <strong>17th place</strong> in the <em>Ada Lovelace National Girls’ Programming Contest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>December, 2021:</strong><br> I participated in my first <em>Ada Lovelace National Girls’ Programming Contest</em> and ranked <strong>18th</strong>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>August, 2021:</strong><br> I achieved <strong>32nd place</strong> in the <em>National Girls’ Programming Contest</em>.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>April, 2021:</strong><br> I reached the <strong>Top 50</strong> in the <em>Banglalink Ennovators 3.0</em> program.</p>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p><strong>February, 2021:</strong><br> I achieved a <strong>Top 10</strong> position in <em>GP Explorers 2.0</em>.</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+                <table id="research"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h1>Research Experience</h1>
+                            <p>
+                                <!-- I am primarily interested in making machines that understand the world around
+                                us and can learn from it incrementally. This led me to work in interested
+                                fields including <b>continual learning</b>, <b>semantic segmentation</b>, <b>zero-shot semantic segmentation</b>,
+                                and <b>visual relationship detection</b>. I also have experience in AI-generated art having worked with
+                                    <b>neural style transfer</b>, <b>GANs</b>, <b>diffusion
+                                models</b>, and <b>VQ-VAEs</b>. -->
+                                My research lies at the intersection of Deep Learning, Computer Vision, and Natural Language Processing. 
+                                I am particularly interested in developing models that can learn efficiently from limited data and adapt to 
+                                evolving environments. My recent works explore few-shot and continual learning for medical image segmentation, 
+                                transformer-based models for Bengali text style transfer, and zero-shot learning for generalized recognition. 
+                                Broadly, I aim to design intelligent systems that are robust, adaptable, and capable of understanding and 
+                                reasoning across modalities, with potential applications in Software Engineering, Security, and Human-AI Interaction.
+                                <br><br>
+                                <!-- <b>Latest:</b> I have recently developed an interest in <b>model
+                                interpretability</b> and <b>deep network understanding</b>. -->
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <h2>Ongoing</h2>
+
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/FSL medi.jpg" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Enhancing Few-Shot Medical Image Segmentation with Refined Prototypes
+                            </h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Project Lead</em></b>
+                            <br>
+                            <!-- <b><em style="color: darkgreen">International Conference on Digital Image Computing:
+                                    Techniques and Applications (DICTA)</em></b>, 2023 -->
+                            <!-- <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10410952">paper</a> -->
+                            <p></p>
+                            <p>Proposed an iterative refinement framework that enhances support and query feature interaction 
+                                for more accurate segmentation in few-shot medical imaging. Integrated self-attention and 
+                                cross-masked attention modules to generate contextually enriched feature maps and robust 
+                                prototype representations. Introduced regional prototype generation to handle intra-class 
+                                variations and improve adaptability across diverse medical datasets (ABD-CT, ABD-MR, CMR). 
+                                Achieved superior performance in mean Dice coefficient (DSC), demonstrating improved generalization 
+                                and segmentation precision over existing methods.</p>
+
+                            <p></p>
+                            <h3 style="color: darkblue;">Supervisor: </h3>
+                            <a target="_blank" href="https://scholar.google.com/citations?user=LIl1Y-0AAAAJ&hl=en">
+                                Dr. Hasanul Kabir
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/text style transfer.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Bengali Text Style Transfer using Fine-Tuned Transformer Models</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Project Lead</em></b>
+
+                            <p>Constructed the first large-scale Bangla Style Transfer dataset containing 8,000 
+                                positive–negative and 4,000 formal–informal text pairs. Fine-tuned the Bangla T5 model for 
+                                bilingual style adaptation, achieving substantial performance gains across both style 
+                                transfer tasks. Model Achieved BLEU scores of 90.78 (formal→informal) and 
+                                88.13 (positive→negative), significantly outperforming baseline models.</p>
+                            <h3 style="color: darkblue;">Supervisor: </h3> <a target="_blank"
+                                href="https://scholar.google.com/citations?user=l_Dk4ZoAAAAJ&hl=en">Sabbir Ahmed
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/czsl.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Continual Zero-Shot Learning (CZSL)</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Collaborator</em></b>
+
+                            <p>Designed and implemented an efficient data processing and loading pipeline tailored for 
+                                continual zero-shot learning tasks, enabling smooth integration of new classes and datasets 
+                                without retraining from scratch.Conducted comprehensive evaluations of several state-of-the-art 
+                                zero-shot learning models within a continual learning framework to analyze their adaptability, 
+                                performance retention, and resistance to catastrophic forgetting.Developed and tested a novel 
+                                kernel-based CZSL model that leveraged semantic embeddings and kernel functions to enhance 
+                                generalization across unseen classes and incremental learning scenarios.
+
+                            </p>
+
+                            <!-- <h3 style="color: darkblue;">Supervisor: </h3> <a target="_blank"
+                                href="https://scholar.google.com/citations?user=l_Dk4ZoAAAAJ&hl=en">Sabbir Ahmed
+                            </a> -->
+                        </td>
+                    </tr>
+
+
+                </table>
+
+
+
+
+                <!-- <h2>Ongoing</h2>
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/vector.jfif" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Visual Relationship Detection using Vector Quantization</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Project Lead</em></b>
+                            <br>
+
+                            <p></p>
+                            <p>Developed a new pipeline that leverages vector quantization to generate scene graphs and
+                                learn object interactions.
+                                Introduced a novel technique named "non-background masking" that utilizes the model’s
+                                strong detection capabilities to
+                                discard invalid relations. The pipeline showed promising results upon initial
+                                experiments on the Visual Genome dataset.</p>
+
+                            <p></p>
+                            <h3 style="color: darkblue;">Supervisor: </h3> <a target="_blank"
+                                href="https://scholar.google.ca/citations?user=qoytZAMAAAAJ&hl=en">Dr. Moshiur Farazi
+                            </a></a>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/graph.jfif" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Semantic Segmentation using Implicit Graph Neural Networks</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Project Lead</em></b>
+                            <br>
+
+                            <p></p>
+                            <p>Introduced a feasible graph representation of images via dividing images into patches
+                                (nodes) and connecting related
+                                patches via an edge based on their K Nearest Neighbors. A well-posed function is used to
+                                represent the graph neural
+                                network which is solved implicitly to perform semantic segmentation in constant memory.
+                                Model showed competitive
+                                performance as the current state-of-the-art on a small subset of CityScapes.</p>
+
+                            <p></p>
+                            <h3 style="color: darkblue;">Supervisor: </h3> <a target="_blank"
+                                href="https://scholar.google.ca/citations?user=qoytZAMAAAAJ&hl=en">Dr. Moshiur Farazi
+                            </a></a>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/fsl.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Enhancing Few-Shot Medical Image Segmentation with Refined
+                                Prototypes</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Role: Co-supervisor</em></b>
+                            <br>
+                            <p></p>
+                            <p>Interaction between query and support features can enhance existing methods’
+                                representation abilities resulting in more
+                                precise global prototype predictions. Experiments are being done on the ABD-MRI, ABD-CT,
+                                and CMR datasets. Further
+                                experiments are required to prove the hypothesis.</p>
+
+                            <p></p>
+                            <h3 style="color: darkblue;">Supervisor: </h3> <a target="_blank"
+                                href="https://scholar.google.com/citations?user=l_Dk4ZoAAAAJ&hl=en">Sabbir Ahmed
+                            </a></a>
+                        </td>
+                    </tr>
+                </table> -->
+
+                <!-- Projects Section -->
+
+                <table id="projects"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h1>Projects</h1>
+                        </td>
+                    </tr>
+                </table>
+
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/algovisual.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+
+                            <h3 style="color: darkblue;">ML Algorithm Visualizer</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: Jupyter, ScikitLearn</em>, 2023</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/ML-Algorithm-Visualizer">code/</a>
+
+                            <p></p>
+                            <p> Developed an interactive visualization tool that demonstrates the workings of key machine learning algorithms,
+ including regression, classification, clustering, and dimensionality reduction, to help users intuitively understand
+ fundamental ML concepts.</p>
+                            <!-- <p><strong>Project Goal: </strong>To build a notebook that can be used as a tool to visually
+                                teach fundamental machine learning
+                                algorithms at university.
+                            </p> -->
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/helmet.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Helmet Detection using YOLO</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: Python, OpenCV</em>, 2023</b>
+                            <br>
+
+                            <a target="_blank"
+                                href="https://github.com/Meowthhh/Helmet-Detection">code/</a>
+
+                            <p></p>
+                            <p>Developed an automated helmet detection system using YOLOv5, YOLOv6, and YOLOv8 trained on a custom
+                            dataset. Achieved efficient real-time detection performance to 
+                            promote road safety and helmet compliance.</p>
+                            <!-- <p><strong>Project Goal: </strong>To understand the technical details of one of the most
+                                popular semantic segmentation models, U-Net.
+                            </p> -->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/van gogh.jpg" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Neural Style Transfer</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: Tensorflow</em>, 2023</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/Neural-Style-Transfer">code/</a>
+
+                            <p></p>
+                            <p>Implemented Neural Style Transfer (NST) using TensorFlow and a pretrained VGG-19 
+                                model to blend content and style images, producing artistic outputs after 
+                                iterative feature optimization over 2000 iterations.</p>
+                            <!-- <p><strong>Project Goal: </strong>To understand how NST works to generate AI art.
+                            </p> -->
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/iutcs logo.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+
+                            <h3 style="color: darkblue;">IUTCS</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: Django, HTML, EJS, MySQL</em>, 2023</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/IUTCS">code/</a>
+
+                            <p></p>
+                            <p>Built a club website featuring a blog, event pages, and registration functionalities for intra- and inter-university events.
+                                Implemented the frontend with HTML and CSS and managed data storage using MySQL.</p>
+                            <!-- <p><strong>Project Goal: </strong>To build a notebook that can be used as a tool to visually
+                                teach fundamental machine learning
+                                algorithms at university.
+                            </p> -->
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/AAstha logo.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3 style="color: darkblue;">Aastha</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: React, Node.js, HTML, MySQL</em>, 2022</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/AASTHA">code/</a>
+                            
+
+                            <p></p>
+                            <p>Developed a web application that connects people in medical emergencies with nearby blood donors, featuring a
+ searchable database built with MySQL and a user-friendly frontend using HTML, CSS, and EJS.</p>
+                            <!-- <p><strong>Project Goal: </strong>To thoroughly understand the inner workings of a neural
+                                network. No external libraries were used.
+                            </p> -->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/dormease.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+
+                            <h3 style="color: darkblue;">DormEase</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: Dart, Firebase</em>, 2022</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/DormEase">code/</a>
+
+                            <p></p>
+                            <p>A comprehensive hostel management mobile app that allows students to book rooms, submit complaints, view
+ notices, update personal information, check vacant rooms, and see the food menu.</p>
+                            <!-- <p><strong>Project Goal: </strong>To build a notebook that can be used as a tool to visually
+                                teach fundamental machine learning
+                                algorithms at university.
+                            </p> -->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/TLOGO.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+
+                            <h3 style="color: darkblue;">TConnect</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: React, Node.js, MongoDB</em>, 2021</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/TConnect">code/</a>
+
+                            <p></p>
+                            <p>A prescription management website. Enabled doctors to view patients’ 
+                                medical documents upon receiving permission from the patients.</p>
+                            <!-- <p><strong>Project Goal: </strong>To build a notebook that can be used as a tool to visually
+                                teach fundamental machine learning
+                                algorithms at university.
+                            </p> -->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="images/bookk.png" alt="project image"
+                                style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+
+                            <h3 style="color: darkblue;"> BookwormBear</h3>
+                            <br>
+                            <b><em style="color: darkgreen">Tools: C++, SFM</em>, 2020</b>
+                            <br>
+
+                            <a target="_blank" href="https://github.com/Meowthhh/Bookworm-Bear">code/</a>
+
+                            <p></p>
+                            <p>An interactive Word game with Visual Effects and Music. Implemented using C++ with the help of SFML Library. 
+                                There is a maze in the game. And some letters have been given. Players have to guess the word correctly. 
+                                If the player can’t guess the word in that case he can take a hint.</p>
+                        </td>
+                    </tr>
+
+                </table>
+
+
+                <!-- Education Section -->
+
+                <table id="education"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h1>Education</h1>
+                            <br>
+                            <div style="margin-bottom: 10px;">
+                                <ul>
+                                    <li style="margin-bottom: 10px;">
+                                        <h3 style="color: darkblue;">Bachelor of Science in Computer Science and
+                                            Engineering (BSc. Engg.)
+                                        </h3><b> <em style="color: darkgreen">[2020-2024]</em></b>
+                                        <br>
+                                        Department of Computer Science and Engineering (CSE), <br>
+                                        Islamic University of Technology (IUT), <br>
+                                        Gazipur, Dhaka <br>
+                                        <b>- CGPA: 3.25/4.00 </b> <br><br>
+                                        - <b>Notable Courses:</b> Machine Learning, Artificial
+                                        Intelligence, Pattern Recognition, Computer Graphics, Data
+                                        Structures and Algorithms, Numerical Methods, Theory of Computation, 
+                                        Discrete Mathematics, Object Oriented Programming
+                                    </li>
+                                    <li style="margin-bottom: 10px;">
+                                        <h3 style="color: darkblue;">Higher Secondary School Certificate (HSC)
+                                        </h3> <b> <em style="color: darkgreen">[2017-2019]</em></b>
+                                        <br>
+                                        Govt Azizul Haque College, <br>
+                                        Bogura, Bangladesh
+                                        <br>
+                                        <b>- GPA: 5.00/5.00 </b>
+                                        <br>
+                                    </li>
+                                    <li style="margin-bottom: 10px;">
+                                        <h3 style="color: darkblue;">Secondary School Certificate (SSC)
+                                        </h3><b> <em style="color: darkgreen">[2005-2017]</em></b>
+                                        <br>
+                                        Bogura Cantonment Public School & College, <br>
+                                        Bangladesh
+                                        <br>
+                                        <b>- GPA: 5.00/5.00 </b>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <!-- Work Experience Section -->
+
+                <table id="work"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h1>Work Experience</h1>
+                            <br>
+                            <div style="margin-bottom: 10px;">
+                                <ul>
+                                    <li style="margin-bottom: 10px;">
+                                        <h3 style="color: darkblue;">Cybersecurity Engineer
+                                        </h3><b> <em style="color: darkgreen">[August 2024-October 2024]</em></b>
+                                        <br>
+                                        Beetles Cyber Security Ltd.<br>
+                                        Dhaka, Bangladesh <br><br>
+                                        <!-- <b>Courses Taught:</b><br>
+                                        - CSE 3811: Artificial Intelligence, DS 1101: Fundamentals of Data Science, DS 1115: Object-Oriented 
+                                        Programming for Data Science
+                                        <br><br> -->
+
+                                        <b>Experience:</b><br>
+                                        -  Researched persistence mechanisms in Windows Portable Executables and evaluated various code-injection
+ techniques in a controlled lab environment to identify potential attack vectors and recommend mitigations. and
+ various code injection techniques for anti-virus detection.
+                                        <br>
+                                        - Implemented and tested dropper prototypes and PowerShell-based tools during authorized assessments to evaluate antivirus/endpoint detection effectiveness and improve defensive controls.
+                                        <br>
+                                        - Collaborated with the cybersecurity team to document findings, develop security reports, and recommend best
+ practices for improving organizational cybersecurity posture.
+                                        </b>
+                                    </li>
+
+                                    <!-- <li style="margin-bottom: 10px;">
+                                        <h3 style="color: darkblue;">Research and Development Executive (Part-time)
+                                        </h3> <b> <em style="color: darkgreen">[2022]</em></b>
+                                        <br>
+                                        Aamra Networks Limited <br>
+                                        Dhaka, Bangladesh
+                                        <br><br>
+                                        - Developed CCTV footage analysis software using computer vision techniques. The
+                                        role was offered during my
+                                        junior year of university.
+                                        <br>
+                                        - Curated a proprietary dataset for automated Bengali license plate detection
+                                        and achieved the best results using
+                                        custom state-of-the-art models.
+                                        <br>s
+                                        - Developed a facial recognition system for automated attendance from CCTV
+                                        cameras.
+
+                                    </li> -->
+                                    
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="leadership"
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h1>Honors and Awards</h1>
+                            <br>
+                            <div style="margin-bottom: 10px;">
+                                <ul>
+
+                                        - <b>1st Runner up</b>, Women in Tech BD, Huawei, 2024<br>
+                                        - <b>Champion</b>, IUTCS presents ”The Great Web Off”, 2024 <br>
+                                        - <b>29th</b>, HerWILL: AI for Equality Datathon, 2024 <br>
+                                        - <b>4th</b>, Blockchain Olympiad Bangladesh, 2023 <br>
+                                        - <b>32nd</b>, DL Sprint 2.0- BUET CSE Fest, 2023 <br>
+                                        - <b>30th</b>, ASR for Regional Dialects Datathon, Bengali.AI, 2023 <br>
+                                        - <b>Top60</b>, ICPC Algo Queen (Global Rank), 2023 <br>
+                                        - <b>9th</b>, CodeRush 1.0 Intra-IUT Programming Contest, 2023 <br>
+                                        - <b>26th</b>, National Girls’ Programming Contest, 2023 <br>
+                                        - <b>6th</b>, IUT Intra-University Programming Contest, 2022 <br>
+                                        - <b>17th</b>, Ada Lovelace National Girls’ Programming Contest, 2022 <br>
+                                        - <b>18th</b>, Ada Lovelace National Girls’ Programming Contest, 2021 <br>
+                                        - <b>32nd</b>, National Girls’ Programming Contest, 2021 <br>
+                                        - <b>Top 50</b>, Banglalink Ennovators 3.0, 2021 <br>
+                                        - <b>Top 10</b>, GP Explorers 2.0, 2021 <br>
+                                        <br>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+                <br>
+
+                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=WezePIiRz_xbq5qVFCizdsX9qxoXBfx8skRrSRcDIRY&cl=ffffff&w=a"></script>
+
+
+                <table
+                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:0px">
+                            <br>
+                            <p style="text-align:center;font-size:small;">
+                                Last updated: October 26, 2025 <br> I found this cool template builds the webpages of
+                                some even cooler
+                                scientists I know. Thanks to <a target="_blank" style="font-size:small;"
+                                    href="https://leonidk.com/">Leonid</a> for
+                                implementing <a target="_blank" style="font-size:small;"
+                                    href="https://jonbarron.info">Jon</a>'s design
+                                in <a target="_blank" style="font-size:small;" href="https://jekyllrb.com/">Jekyll</a>.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
